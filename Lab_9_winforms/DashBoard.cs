@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Lab_9_winforms
 {
-    public partial class DashBoard : Form
+    public partial class DashBoard_form : Form
     {
-        public DashBoard()
+        public DashBoard_form()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Login_form lff = new Login_form();
+            lff.Show();
+            this.Hide();
         }
     }
 }

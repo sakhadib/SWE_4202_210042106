@@ -104,6 +104,7 @@
             this.label4.Size = new System.Drawing.Size(85, 25);
             this.label4.TabIndex = 5;
             this.label4.Text = "Sign up";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Login_form
             // 

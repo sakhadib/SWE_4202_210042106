@@ -36,5 +36,12 @@ namespace Lab_9_winforms
                 }
             }
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            f1.Show();
+            this.Hide();
+        }
     }
 }
